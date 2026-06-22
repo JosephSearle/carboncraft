@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "carboncraft",
+  "description": "Production-grade toolkit for building Next.js 15 web UIs with IBM Carbon Design System: setup, theming, chat UI, dashboards, forms, state management, observability, and OpenShift deployment.",
+  "owner": {
+    "name": "Joseph Searle",
+    "url": "https://github.com/josephsearle"
+  },
+  "plugins": [
+    {
+      "name": "carboncraft",
+      "description": "9 specialised skills covering the complete Carbon frontend development lifecycle — from tooling setup and Next.js App Router architecture through Carbon design system integration, chat UI, dashboards, form validation, Zustand state management, OpenTelemetry observability, and OpenShift deployment.",
+      "source": "./",
+      "category": "developer-tools"
+    }
+  ]
+}

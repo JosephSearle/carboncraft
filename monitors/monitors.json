@@ -1,0 +1,14 @@
+[
+  {
+    "name": "next-dev-log",
+    "command": "tail -F \"${CLAUDE_PROJECT_DIR}/.next/trace\" 2>/dev/null",
+    "description": "Next.js dev server build trace — start dev server with: npm run dev 2>&1 | tee .next/dev.log",
+    "when": "on-skill-invoke:webcraft-nextjs-architecture"
+  },
+  {
+    "name": "carbon-build-log",
+    "command": "tail -F \"${CLAUDE_PROJECT_DIR}/logs/build.log\" 2>/dev/null",
+    "description": "Carbon SCSS build output — redirect build output with: npm run build 2>&1 | tee logs/build.log",
+    "when": "on-skill-invoke:webcraft-carbon-setup"
+  }
+]

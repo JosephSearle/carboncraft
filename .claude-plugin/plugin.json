@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "carboncraft",
+  "displayName": "CarbonCraft",
+  "version": "1.0.0",
+  "description": "Production-grade Claude plugin for building Next.js 15 web UIs with IBM Carbon Design System — 9 specialised skills covering setup, theming, chat UI, dashboards, forms, state management, observability, OpenShift deployment, and developer tooling.",
+  "author": {
+    "name": "Joseph Searle",
+    "email": "josephwilliamsearle@gmail.com"
+  },
+  "repository": "https://github.com/josephsearle/carboncraft",
+  "license": "MIT",
+  "keywords": [
+    "carbon",
+    "ibm",
+    "design-system",
+    "nextjs",
+    "react",
+    "frontend",
+    "openshift"
+  ],
+  "defaultEnabled": false
+}
